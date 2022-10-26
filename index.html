@@ -1,0 +1,127 @@
+<html>
+
+<head>
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawesome css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- main css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark py-3">
+        <div class="container my-4">
+            <a class="navbar-brand d-flex" href="#">
+                <img src="assets/img/logo.png" class="me-3" width="64px" height="38px" alt="">
+                <div>
+                    <h6 class="fw-bold">Weather</h6>
+                    <p style="font-size: 8px;">tagline goes here</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="">
+                        <a class="nav-link  active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="all-body">
+        <section class="search-icon">
+            <div class="container">
+                <div class="row mx-5">
+                    <div class="col-md-12">
+
+                        <div class="find-location my-5  position-relative d-flex">
+                            <input type="search" class="mysearch ps-4" placeholder="Find your location..." name="" id="mySearch">
+                            <input type="button"  class="mybtn" id="myBtn" value="Find">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-calender ">
+            <div class="container">
+                <div class="row mx-5" id="myCards">
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="footer mt-5 ">
+
+                <div class="container">
+                    <div class="row mx-5" >
+                        <div class="col-lg-8 col-md-12">
+                            <section class="search-icon">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <div class="find-location my-5  position-relative d-flex">
+                                                <input type="search" class="mysearch ps-4"
+                                                    placeholder="Enter your email to subscribe..." name="" id="">
+                                                <input type="button" class="mybtn" value="subscribe">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-lg-3 col-md-12 offset-lg-1">
+                            <div class="social-links my-5 d-flex justify-content-center">
+                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-light">
+                            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </section>
+
+    
+    <script src="jquery/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
